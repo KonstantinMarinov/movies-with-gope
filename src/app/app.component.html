@@ -1,6 +1,15 @@
 <div class="app-wrapper">
   <mwg-header></mwg-header>
   <mwg-navigation></mwg-navigation>
-  <div class="content-wrapper"></div>
+  <div class="content-wrapper">
+    <mwg-movie-hero
+      [contentDirection]="'row'"
+      [title]="'Upcoming Movie'"
+    ></mwg-movie-hero>
+    <mwg-movie-hero
+      [contentDirection]="'row-reverse'"
+      [title]="'Last Viewed'"
+    ></mwg-movie-hero>
+  </div>
   <mwg-footer></mwg-footer>
 </div>
