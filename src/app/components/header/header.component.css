@@ -1,0 +1,18 @@
+.header {
+  flex: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-height: 50px;
+  padding: 0 8px;
+  border-bottom: 1px solid black;
+}
+
+.header-title {
+  display: grid;
+  place-content: center;
+}
+
+.header-item {
+  width: 48px;
+}
