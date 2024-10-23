@@ -1,0 +1,5 @@
+.footer-wrapper {
+  flex: 1;
+  border-top: 1px solid black;
+  min-height: 48px;
+}
